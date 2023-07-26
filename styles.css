@@ -1,3 +1,8 @@
+@font-face {
+    font-family: brush-script-mt;
+    src: url("brush-script-mt.TTF");
+}
+
 body {
     background-color: #08030D;
     text-align: center;
@@ -6,7 +11,7 @@ body {
 .main-heading {
     color: #F3E5FF;
     font-size: 50px;
-    font-family: Brush Script MT;
+    font-family: brush-script-mt;
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
 }
 
