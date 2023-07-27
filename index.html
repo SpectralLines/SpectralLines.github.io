@@ -3,20 +3,21 @@
 
   <head>
     <title>Spectral Lines</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
   </head>
 
   <body>
 
     <!-- Header -->
-    <div>
+    <div class="header">
       <h class="main-heading">Spectral Lines</h>
-      <br>
 
       <!-- Header buttons -->
       <div>
 
-        <form class="inline-form" target="">
+        <form class="header-button-form" target="">
           <button class="header-button home-button">
             HOME
           </button>
@@ -24,7 +25,7 @@
 
         <h class="header-divider">&#183</h>
 
-        <form class="inline-form" target="">
+        <form class="header-button-form" target="">
           <button class="header-button music-button">
             MUSIC
           </button>
@@ -32,7 +33,7 @@
 
         <h class="header-divider">&#183</h>
 
-        <form class="inline-form" target="">
+        <form class="header-button-form" target="">
           <button class="header-button events-button">
             EVENTS
           </button>
@@ -40,59 +41,64 @@
 
         <h class="header-divider">&#183</h>
 
-        <form class="inline-form" target="">
+        <form class="header-button-form" target="">
           <button class="header-button contact-button">
             CONTACT
           </button>
         </form>
         
       </div>
-      <hr>
     </div>
 
-    <!-- Placeholder gap to force the footer to the bottom -->
-    <div style="height:550px;"></div>
+    <!-- Placeholder body  -->
+    <div>
+      <p style="width: 200px; margin-left: auto; margin-right: auto;">
+        Sample text. I've included this paragraph mainly so that scrolling can be seen to be working.
+      </p>
+      <p style="width: 200px; margin-left: auto; margin-right: auto;">
+        May as well include a few more paragraphs while I'm at it.
+      </p>
+      <p style="width: 200px; margin-left: auto; margin-right: auto;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis tempus massa at pulvinar. In aliquet nibh eget facilisis semper. Nulla quis purus consequat, interdum metus vitae, pretium sapien. Morbi neque tellus, malesuada id dignissim sit amet, ultrices non dui. Donec condimentum, ante ac elementum ultricies, magna leo ornare sem, in egestas enim lorem faucibus justo. Nunc leo quam, finibus eu sagittis et, euismod eget nisi. Nunc risus ante, lobortis ac justo in, sollicitudin ullamcorper turpis. Pellentesque sit amet magna sagittis, blandit arcu non, sagittis neque. Etiam vel dui nunc. 
+      </p>
+      <p style="width: 200px; margin-left: auto; margin-right: auto;">
+        Donec fringilla fringilla finibus. Fusce nibh odio, dictum vel massa a, consequat blandit turpis. Curabitur blandit justo non erat feugiat ullamcorper. Donec rutrum ornare augue eget malesuada. Nullam lacinia ipsum fringilla leo consequat egestas. Morbi sit amet cursus lacus. Suspendisse potenti. Vivamus sed justo turpis. Nullam consectetur urna elit, sit amet aliquet elit aliquet id. Nunc at porttitor purus, at luctus ligula. Vestibulum lectus mauris, aliquam nec dolor quis, maximus gravida nulla. Phasellus tempor nisl mauris, in blandit nisl scelerisque venenatis. Nam vehicula rhoncus orci, a tempus massa congue feugiat. 
+      </p>
+      <p style="width: 200px; margin-left: auto; margin-right: auto;">
+        Bottom text.
+      </p>
+    </div> 
 
     <!-- Footer -->
-    <!-- This will end up anchored to the bottom with icons instead of text buttons -->
-    <div>
-      <hr>
+    <div class="footer">
 
-      <form class="inline-form" action="https://tiktok.com" target="_blank">
-        <button class="social-button tiktok-button">
-          TIKTOK
+      <form class="footer-button-form" action="https://tiktok.com" target="_blank">
+        <button class="social-button"> 
+          <img src="icons/tiktok-icon.svg" class="social-icon tiktok-icon">
         </button>
       </form>
 
-      <h class="header-divider">&#183</h>
-
-      <form class="inline-form" action="https://instagram.com" target="_blank">
-        <button class="social-button instagram-button">
-          INSTAGRAM
+      <form class="footer-button-form" action="https://instagram.com" target="_blank">
+        <button class="social-button"> 
+          <img src="icons/instagram-icon.svg" class="social-icon instagram-icon">
         </button>
       </form>
 
-      <h class="header-divider">&#183</h>
-
-      <form class="inline-form" action="https://facebook.com" target="_blank">
-        <button class="social-button facebook-button">
-          FACEBOOK
+      <form class="footer-button-form" action="https://facebook.com" target="_blank">
+        <button class="social-button"> 
+          <img src="icons/facebook-icon.svg" class="social-icon facebook-icon">
         </button>
       </form>
 
-      <h class="header-divider">&#183</h>
-
-      <form class="inline-form" action="https://youtube.com" target="_blank">
-        <button class="social-button youtube-button">
-          YOUTUBE
+      <form class="footer-button-form" action="https://youtube.com" target="_blank">
+        <button class="social-button"> 
+          <img src="icons/youtube-icon.svg" class="social-icon youtube-icon">
         </button>
       </form>
 
-      <h class="header-divider">&#183</h>
-
-      <form class="inline-form" action="https://spotify.com" target="_blank">
-        <button class="social-button spotify-button">
-          SPOTIFY
+      <form class="footer-button-form" action="https://spotify.com" target="_blank">
+        <button class="social-button"> 
+          <img src="icons/spofity-icon.svg" class="social-icon spotify-icon">
         </button>
       </form>
       
