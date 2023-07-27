@@ -1,0 +1,66 @@
+body{
+    padding-top: 100px;
+}
+
+.header {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100px;
+    background-color: #08030D;
+    padding-bottom: 4px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #F3E5FF;
+    box-shadow: 0 0 20px #B8ADFF60;
+}
+
+.main-heading {
+    color: #F3E5FF;
+    font-size: 60px;
+    font-family: brush-script-mt;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+}
+
+.header-button-form {
+    display: inline-block;
+}
+
+.header-divider {
+    color: #F3E5FF;
+}
+
+.header-button {
+    background-color: transparent;
+    border-style: none;
+    color: #F3E5FF;
+    font-size: 16px;
+    transition: color 0.2s, text-shadow 0.2s;
+}
+
+.header-button:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+.header-button:active {
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.85);
+    transition: color 0s, text-shadow 0s;
+}
+
+.home-button:hover {
+    color: #D8ADFF;
+}
+
+.music-button:hover {
+    color: #B8ADFF;
+}
+
+.events-button:hover {
+    color: #ADFBFF;
+}
+
+.contact-button:hover {
+    color: #FFADAD;
+}

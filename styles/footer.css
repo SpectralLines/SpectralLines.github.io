@@ -1,0 +1,72 @@
+body {
+    padding-bottom: 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 40px;
+    background-color: #08030D;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #F3E5FF;
+    box-shadow: 0 0 20px #B8ADFF60;
+}
+
+.footer-button-form {
+    display: inline-block;
+    height: 100%;
+}
+
+.social-button {
+    background-color: transparent;
+    border-style: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.social-icon {
+    height: 100%;
+    filter: 
+        brightness(0)
+        invert(1);
+}
+
+.tiktok-icon:hover {
+    filter: 
+        drop-shadow(0 0 10px #FFFFFF40)
+        drop-shadow(-5px -5px 6px #0bb6bfB0)
+        drop-shadow(5px 5px 6px #ED2B60B0);
+}
+
+.instagram-icon:hover {
+    filter: 
+        drop-shadow(1px 3px 4px #FF016190)
+        drop-shadow(-2px 6px 4px #FEC90060)
+        drop-shadow(-4px -4px 6px #810BFD80)
+        drop-shadow(2px -2px 4px #F500A460);
+}
+
+.facebook-icon:hover {
+    filter: 
+        drop-shadow(0 0 10px #FFFFFF60)
+        drop-shadow(0px 0px 10px #4867AA);
+}
+
+.youtube-icon:hover {
+    filter: 
+        drop-shadow(0 0 10px #FFFFFF40)
+        drop-shadow(0px 0px 10px #FF0101B0);
+}
+
+.spotify-icon:hover {
+    filter: 
+        drop-shadow(0 0 10px #FFFFFF40)
+        drop-shadow(0px 0px 10px #1ED76090);
+}

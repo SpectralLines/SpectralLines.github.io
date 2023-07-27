@@ -1,0 +1,14 @@
+@font-face {
+    font-family: brush-script-mt;
+    src: url("/brush-script-mt.TTF");
+}
+
+body {
+    margin: 0;
+    background-color: #110A17;
+    text-align: center;
+}
+
+p {
+    color: #F3E5FF;
+}
