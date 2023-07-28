@@ -1,5 +1,5 @@
 body {
-    padding-bottom: max(40px, 4vh);
+    padding-bottom: 40px;
 }
 
 .footer {
@@ -7,10 +7,10 @@ body {
     left: 0px;
     right: 0px;
     bottom: 0px;
-    height: max(40px, 4vh);
+    height: 40px;
     background-color: #08030D;
-    padding-top: max(6px, 0.6vh);
-    padding-bottom: max(6px, 0.6vh);
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: #F3E5FF;
@@ -25,17 +25,15 @@ body {
 .social-button {
     background-color: transparent;
     border-style: none;
-    margin-left: max(12px, 1.2vh);
-    margin-right: max(12px, 1.2vh);
+    margin-left: 12px;
+    margin-right: 12px;
     height: 100%;
     cursor: pointer;
 }
 
 .social-icon {
     height: 100%;
-    filter: 
-        brightness(0)
-        invert(1);
+    transition: filter 0.2s;
 }
 
 .tiktok-icon:hover {
@@ -56,17 +54,17 @@ body {
 .facebook-icon:hover {
     filter: 
         drop-shadow(0 0 10px #FFFFFF60)
-        drop-shadow(0px 0px 10px #4867AA);
+        drop-shadow(0px 0px 12px #4867AAFF);
 }
 
 .youtube-icon:hover {
     filter: 
         drop-shadow(0 0 10px #FFFFFF40)
-        drop-shadow(0px 0px 10px #FF0101B0);
+        drop-shadow(0px 0px 10px #FF0101D0);
 }
 
 .spotify-icon:hover {
     filter: 
         drop-shadow(0 0 10px #FFFFFF40)
-        drop-shadow(0px 0px 10px #1ED76090);
+        drop-shadow(0px 0px 10px #1ED760A0);
 }
