@@ -24,6 +24,9 @@ body{
 
 .header-button-form {
     display: inline-block;
+}
+
+.header-divider {
     font-size: 16px;
 }
 
@@ -31,6 +34,7 @@ body{
     background-color: transparent;
     padding-right: 4px;
     border-style: none;
+    font-size: 16px;
     cursor: pointer;
     transition: color 0.2s, text-shadow 0.2s;
 }
