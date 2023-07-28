@@ -1,5 +1,5 @@
 body {
-    padding-bottom: 40px;
+    padding-bottom: 52px;
 }
 
 .footer {
@@ -54,17 +54,20 @@ body {
 .facebook-icon:hover {
     filter: 
         drop-shadow(0 0 10px #FFFFFF60)
-        drop-shadow(0px 0px 12px #4867AAFF);
+        drop-shadow(2px 0px 12px #4867AAFF)
+        drop-shadow(-2px 0px 8px #6487d290);
 }
 
 .youtube-icon:hover {
     filter: 
         drop-shadow(0 0 10px #FFFFFF40)
-        drop-shadow(0px 0px 10px #FF0101D0);
+        drop-shadow(2px -2px 8px #FF0101D0)
+        drop-shadow(-2px 2px 8px #e31313d0);
 }
 
 .spotify-icon:hover {
     filter: 
         drop-shadow(0 0 10px #FFFFFF40)
-        drop-shadow(0px 0px 10px #1ED760A0);
+        drop-shadow(0px 2px 8px #1ED760A0)
+        drop-shadow(0px -2px 8px #11ae48a0);
 }

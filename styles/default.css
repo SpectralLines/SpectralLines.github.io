@@ -9,6 +9,6 @@ body {
     text-align: center;
 }
 
-p {
+p, h, button {
     color: #F3E5FF;
 }

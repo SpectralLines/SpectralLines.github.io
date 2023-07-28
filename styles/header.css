@@ -7,9 +7,8 @@ body{
     left: 0px;
     right: 0px;
     top: 0px;
-    height: 100px, 10vh;
+    height: 100px;
     background-color: #08030D;
-    padding-bottom: 4px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #F3E5FF;
@@ -25,25 +24,15 @@ body{
 
 .header-button-form {
     display: inline-block;
-}
-
-.header-divider {
-    color: #F3E5FF;
     font-size: 16px;
 }
 
 .header-button {
     background-color: transparent;
-    font-size: 16px;
     padding-right: 4px;
     border-style: none;
-    color: #F3E5FF;
-    transition: color 0.2s, text-shadow 0.2s;
-}
-
-.header-button:hover {
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
     cursor: pointer;
+    transition: color 0.2s, text-shadow 0.2s;
 }
 
 .header-button:active {
@@ -53,16 +42,20 @@ body{
 
 .home-button:hover {
     color: #D8ADFF;
+    text-shadow: -2px -2px 10px #D8ADFFC0, 2px 2px 10px #9D45EFC0;
 }
 
 .music-button:hover {
     color: #B8ADFF;
+    text-shadow: -2px -2px 10px #B8ADFFC0, 2px 2px 10px #5B44EDC0;
 }
 
 .events-button:hover {
     color: #ADFBFF;
+    text-shadow: -2px -2px 10px #ADFBFFC0, 2px 2px 10px #44E4EDC0;
 }
 
 .contact-button:hover {
     color: #FFADAD;
+    text-shadow: -2px -2px 10px #FFADADC0, 2px 2px 10px #ED4544C0;
 }
