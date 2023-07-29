@@ -17,18 +17,11 @@ body {
     box-shadow: 0 0 20px #B8ADFF60;
 }
 
-.footer-button-form {
-    display: inline-block;
-    height: 100%;
-}
-
 .social-button {
-    background-color: transparent;
-    border-style: none;
     margin-left: 12px;
     margin-right: 12px;
     height: 100%;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .social-icon {
